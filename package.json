@@ -1,0 +1,25 @@
+{
+  "name": "conceptcar-devfrontmmi",
+  "version": "1.0.0",
+  "description": "one page automobile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinnnncent/ConceptCar-devFrontMMI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinnnncent/ConceptCar-devFrontMMI/issues"
+  },
+  "homepage": "https://github.com/Vinnnncent/ConceptCar-devFrontMMI#readme",
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "sass": "^1.26.3"
+  }
+}
