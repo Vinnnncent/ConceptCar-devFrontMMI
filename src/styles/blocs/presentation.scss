@@ -1,0 +1,27 @@
+.presentationOne {
+  background-image: url(./../assets/models/alpha.jpg);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.presentationOne__bloc {
+  background-color: #313131;
+  margin-left: 50vw;
+  width: 50vw;
+  height: 100vh;
+  mix-blend-mode: multiply;
+}
+
+.presentationTwo {
+  background-color: #1f1f1f;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.presentationTwo__bloc {
+  background-color: #1f1f1f;
+  width: 50vw;
+  height: 100vh;
+}

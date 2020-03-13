@@ -1,6 +1,11 @@
 @import "./reset.scss";
 
+// config
 @import "./config/mixin.scss";
+
+// blocs
+@import "./blocs/presentation.scss";
+@import "./blocs/cutter.scss";
 
 * {
   box-sizing: border-box;
@@ -8,11 +13,4 @@
 
 img {
   max-width: 100%;
-}
-
-body {
-  background-image: url(./../assets/models/alpha.jpg);
-  background-size: cover;
-  width: 100vw;
-  height: 100vh;
 }
