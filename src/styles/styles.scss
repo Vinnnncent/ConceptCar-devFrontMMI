@@ -2,6 +2,7 @@
 
 // config
 @import "./config/mixin.scss";
+@import "./config/root.scss";
 
 // blocs
 @import "./blocs/presentation.scss";
@@ -9,6 +10,7 @@
 
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 img {
