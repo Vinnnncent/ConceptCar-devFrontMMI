@@ -12,6 +12,12 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/styles.scss" />
+    <script
+      src="./../node_modules/waypoints/lib/noframework.waypoints.min.js"
+      async
+      defer
+    ></script>
+    <script src="./app.js" async defer></script>
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -31,9 +37,60 @@
     </section>
 
     <section class="presentationTwo">
-      <div class="presentationTwo__bloc"></div>
-    </section>
+      <!-- <div class="presentationTwo__bloc"></div> -->
+      <div class="presentationTwo__anims">
+        <img
+          id="img1"
+          class="anims__imgForward"
+          src="./assets/models/mercedes1.jpg"
+          alt=""
+        />
+        <img
+          id="img2"
+          class="anims__imgBackward"
+          src="./assets/models/concept1.jpg"
+          alt=""
+        />
+        <img
+          id="img3"
+          class="anims__imgForward"
+          src="./assets/models/concept2.jpg"
+          alt=""
+        />
+        <img
+          id="img4"
+          class="anims__imgBackward"
+          src="./assets/models/concept3.jpg"
+          alt=""
+        />
 
-    <script src="" async defer></script>
+        <section class="grid">
+          <article class="card">
+            <p class="card__name">1</p>
+            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
+          </article>
+
+          <article class="card">
+            <p class="card__name">1</p>
+            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
+          </article>
+
+          <article class="card">
+            <p class="card__name">1</p>
+            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
+          </article>
+
+          <article class="card">
+            <p class="card__name">1</p>
+            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
+          </article>
+
+          <article class="card">
+            <p class="card__name">1</p>
+            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
+          </article>
+        </section>
+      </div>
+    </section>
   </body>
 </html>

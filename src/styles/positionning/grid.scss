@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 0.5rem;
+  margin: 0.5rem;
+  font: 12px system-ui;
+  @include medium_screen {
+    grid-template-columns: 1fr;
+  }
+}
+.grid > article {
+  padding: 1.5rem;
+  background-color: red;
+}

@@ -14,14 +14,19 @@
 }
 
 .presentationTwo {
-  background-color: var(--backgroundColor);
+  background-color: $backgroundColor;
   background-size: cover;
   width: 100vw;
-  height: 100vh;
+  height: auto;
 }
 
 .presentationTwo__bloc {
-  background-color: var(--backgroundColor);
+  background-color: $backgroundColor;
   width: 50vw;
   height: 100vh;
+}
+
+.presentationTwo__anims {
+  display: flex;
+  flex-direction: column;
 }

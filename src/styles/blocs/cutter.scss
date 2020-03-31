@@ -1,5 +1,5 @@
 .cutter {
-  background-color: var(--backgroundColor);
+  background-color: $backgroundColor;
 }
 .cutter__space {
   width: 50vw;
@@ -10,6 +10,6 @@
 .cutter__triangle {
   width: 0;
   margin-left: 50vw;
-  border-bottom: 20vh solid var(--backgroundColor);
+  border-bottom: 20vh solid $backgroundColor;
   border-right: 50vw solid #000;
 }

@@ -1,12 +1,20 @@
 @import "./reset.scss";
 
+//mixins
+@import "./mixins/gridMixin.scss";
+
 // config
-@import "./config/mixin.scss";
 @import "./config/root.scss";
 
 // blocs
 @import "./blocs/presentation.scss";
 @import "./blocs/cutter.scss";
+
+// positionning
+@import "./positionning/grid.scss";
+
+// anims
+@import "./anims/img.scss";
 
 * {
   box-sizing: border-box;
