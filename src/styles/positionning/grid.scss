@@ -8,11 +8,11 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
+  .item-h {
+    display: none;
+  }
 
   @include small_screen {
-    .item-h {
-      display: none;
-    }
   }
 
   @include medium_screen {

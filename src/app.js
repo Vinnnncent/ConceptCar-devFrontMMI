@@ -6,7 +6,9 @@ var rightParallax = document.getElementsByClassName("rightParallax");
 var overflowRight = document.getElementsByClassName("overflowRight");
 var overflowdown = document.getElementsByClassName("overflowDown");
 
-new simpleParallax(downParallax, {});
+new simpleParallax(downParallax, {
+  scale: 2
+});
 new simpleParallax(leftParallax, {
   orientation: "left"
 });
