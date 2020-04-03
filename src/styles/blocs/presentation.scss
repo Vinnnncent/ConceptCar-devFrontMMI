@@ -5,12 +5,111 @@
   height: 100vh;
 }
 
+.presentationOne__logoBar {
+  width: 90vw;
+  height: 2px;
+  position: absolute;
+  top: 50vh;
+  left: 5vw;
+  background-color: white;
+  z-index: 100;
+  filter: blur(2px);
+
+  @include medium_screen {
+    width: 60vw;
+    height: 2px;
+    top: 50vh;
+    left: 20vw;
+    filter: blur(0);
+  }
+  @include large_screen {
+    width: 60vw;
+    height: 2px;
+    top: 50vh;
+    left: 20vw;
+    filter: blur(0);
+  }
+}
+.bottomLogoBar {
+  transform: rotate(135deg);
+  animation-name: logoBottom;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.topLogoBar {
+  transform: rotate(45deg);
+  animation-name: logoTop;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+.presentationOne__logoLetter {
+  font-size: 70px;
+  width: 80vw;
+  color: white;
+  z-index: 100;
+  display: flex;
+  opacity: 0;
+  animation-name: logoLetter;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  // flex-grow: 1;
+
+  @include medium_screen {
+    font-size: 10rem;
+  }
+  @include large_screen {
+    font-size: 10rem;
+  }
+}
+.presentationOne__logoLetter > div {
+  // padding: 2vw;
+  overflow: hidden;
+  display: flex;
+}
+// .presentationOne__logoLetter > div:nth-of-type(2) {
+//   font-size: 3rem;
+// }
+// .presentationOne__logoLetter > div:nth-of-type(4) {
+//   font-size: 3rem;
+// }
+// .presentationOne__logoLetter > div:nth-of-type(6) {
+//   font-size: 3rem;
+// }
+// .presentationOne__logoLetter > div:nth-of-type(8) {
+//   font-size: 3rem;
+// }
+.innerWord {
+  display: none;
+
+  @include large_screen {
+    display: block;
+    font-size: 3rem;
+    align-self: flex-end;
+    overflow: hidden;
+    font-family: "Permanent Marker", cursive;
+    margin-bottom: 20px;
+  }
+}
+
 .presentationOne__bloc {
   background-color: #313131;
   margin-left: 50vw;
   width: 50vw;
   height: 100vh;
   mix-blend-mode: multiply;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // display: none;
 }
 
 .presentationTwo {

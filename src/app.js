@@ -1,3 +1,30 @@
+var downParallax = document.getElementsByClassName("downParallax");
+var upParallax = document.getElementsByClassName("upParallax");
+var leftParallax = document.getElementsByClassName("leftParallax");
+var rightParallax = document.getElementsByClassName("rightParallax");
+
+var overflowRight = document.getElementsByClassName("overflowRight");
+var overflowdown = document.getElementsByClassName("overflowDown");
+
+new simpleParallax(downParallax, {});
+new simpleParallax(leftParallax, {
+  orientation: "left"
+});
+new simpleParallax(rightParallax, {
+  orientation: "right",
+  scale: 3
+});
+new simpleParallax(overflowRight, {
+  overflow: true,
+  orientation: "right",
+  scale: 4
+});
+new simpleParallax(overflowDown, {
+  overflow: true,
+  orientation: "down",
+  scale: 4
+});
+
 var img1 = new Waypoint({
   element: document.getElementById("img1"),
   handler: function(direction) {

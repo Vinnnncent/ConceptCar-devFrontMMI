@@ -9,18 +9,33 @@
 // blocs
 @import "./blocs/presentation.scss";
 @import "./blocs/cutter.scss";
+@import "./blocs/card.scss";
 
 // positionning
 @import "./positionning/grid.scss";
 
 // anims
 @import "./anims/img.scss";
+@import "./anims/anims.scss";
 
 * {
   box-sizing: border-box;
-  overflow-x: hidden;
+  // overflow-x: hidden;
+}
+
+body {
+  background-color: $backgroundColor;
 }
 
 img {
   max-width: 100%;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  color: white;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2vh;
 }

@@ -1,0 +1,26 @@
+@keyframes logoTop {
+  70% {
+    transform: rotate(720deg);
+  }
+  100% {
+    transform: rotate(315deg);
+  }
+}
+
+@keyframes logoBottom {
+  70% {
+    transform: rotate(630deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes logoLetter {
+  70% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -12,11 +12,26 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles/styles.scss" />
-    <script
-      src="./../node_modules/waypoints/lib/noframework.waypoints.min.js"
-      async
-      defer
-    ></script>
+    <!-- fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./../node_modules/waypoints/lib/noframework.waypoints.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.2.0/dist/simpleParallax.min.js"></script>
+    <!-- <script src="./app.js" async defer></script> -->
     <script src="./app.js" async defer></script>
   </head>
   <body>
@@ -28,17 +43,43 @@
     <![endif]-->
 
     <section class="presentationOne">
+      <!-- <div class="presentationOne__fullLogo"> -->
+      <div class="presentationOne__logoBar topLogoBar"></div>
+      <div class="presentationOne__logoBar bottomLogoBar"></div>
+      <div class="presentationOne__logoLetter">
+        <div>
+          C
+          <p class="innerWord">oncept</p>
+        </div>
+
+        <div>
+          C
+          <p class="innerWord">ars</p>
+        </div>
+
+        <div>
+          S
+          <p class="innerWord">hop</p>
+        </div>
+
+        <div>
+          A
+          <p class="innerWord">ngoulême</p>
+        </div>
+      </div>
+
+      <!-- </div> -->
+
       <div class="presentationOne__bloc"></div>
     </section>
-
     <section class="cutter">
       <div class="cutter__space"></div>
       <div class="cutter__triangle"></div>
     </section>
 
-    <section class="presentationTwo">
-      <!-- <div class="presentationTwo__bloc"></div> -->
-      <div class="presentationTwo__anims">
+    <!-- <section class="presentationTwo"> -->
+    <!-- <div class="presentationTwo__bloc"></div> -->
+    <!-- <div class="presentationTwo__anims">
         <img
           id="img1"
           class="anims__imgForward"
@@ -63,34 +104,98 @@
           src="./assets/models/concept3.jpg"
           alt=""
         />
-
-        <section class="grid">
-          <article class="card">
-            <p class="card__name">1</p>
-            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
-          </article>
-
-          <article class="card">
-            <p class="card__name">1</p>
-            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
-          </article>
-
-          <article class="card">
-            <p class="card__name">1</p>
-            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
-          </article>
-
-          <article class="card">
-            <p class="card__name">1</p>
-            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
-          </article>
-
-          <article class="card">
-            <p class="card__name">1</p>
-            <img class="card__img" src="./assets/models/concept3.jpg" alt="" />
-          </article>
-        </section>
       </div>
+    </section> -->
+
+    <section class="grid">
+      <article class="cardImg item-a">
+        <img class="rightParallax" src="./assets/models/concept3.jpg" alt="" />
+      </article>
+      <article class="cardText item-b">
+        <!-- <h1 class="card__name">Lorem ipsum</h1> -->
+        <div class="cardText__text">
+          <h1>concept car 1</h1>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            illo ullam impedit culpa voluptatem delectus amet, eligendi cum
+            exercitationem cumque nostrum. Nobis corrupti beatae perspiciatis
+            porro excepturi sed, a minus.
+          </div>
+        </div>
+      </article>
+
+      <article class="cardImg item-c">
+        <img class="leftParallax" src="./assets/models/concept3.jpg" alt="" />
+      </article>
+      <article class="cardText item-d">
+        <!-- <h1 class="card__name">Lorem ipsum</h1> -->
+        <div class="cardText__text">
+          <h1>concept car 2</h1>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            illo ullam impedit culpa voluptatem delectus amet, eligendi cum
+            exercitationem cumque nostrum. Nobis corrupti beatae perspiciatis
+            porro excepturi sed, a minus.
+          </div>
+        </div>
+      </article>
+
+      <article class="cardImg item-e">
+        <img class="downParallax" src="./assets/models/concept3.jpg" alt="" />
+      </article>
+      <article class="cardImg item-f">
+        <img class="downParallax" src="./assets/models/concept3.jpg" alt="" />
+      </article>
+      <article class="cardImg item-g">
+        <img class="overflowRight" src="./assets/models/concept3.jpg" alt="" />
+      </article>
+      <article class="cardText item-h">
+        <!-- <h1 class="card__name">Lorem ipsum</h1> -->
+        <div class="cardText__text">
+
+          </div>
+        </div>
+      </article>
+      <article class="cardText item-i">
+        <!-- <h1 class="card__name">Lorem ipsum</h1> -->
+        <div class="cardText__text">
+          <h1>concept car 4</h1>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            illo ullam impedit culpa voluptatem delectus amet, eligendi cum
+            exercitationem cumque nostrum. Nobis corrupti beatae perspiciatis
+            porro excepturi sed, a minus.
+          </div>
+        </div>
+      </article>
+
+      <article class="cardImg item-j">
+        <img class="overflowDown" src="./assets/models/concept3.jpg" alt="" />
+      </article>
+      <article class="cardText item-k">
+        <!-- <h1 class="card__name">Lorem ipsum</h1> -->
+        <div class="cardText__text">
+          <h1>concept car 5</h1>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            illo ullam impedit culpa voluptatem delectus amet, eligendi cum
+            exercitationem cumque nostrum. Nobis corrupti beatae perspiciatis
+            porro excepturi sed, a minus.
+          </div>
+        </div>
+      </article>
+      <article class="cardText item-l">
+        <!-- <h1 class="card__name">Lorem ipsum</h1> -->
+        <div class="cardText__text">
+          <h1>concept car 5</h1>
+          <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            illo ullam impedit culpa voluptatem delectus amet, eligendi cum
+            exercitationem cumque nostrum. Nobis corrupti beatae perspiciatis
+            porro excepturi sed, a minus.
+          </div>
+        </div>
+      </article>
     </section>
   </body>
 </html>
