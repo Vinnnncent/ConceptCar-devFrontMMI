@@ -20,7 +20,22 @@
 .cardText > div {
   padding: 2rem;
 }
-
+.cardText__logo {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.cardText__logo > img {
+  margin: 2vh;
+  width: calc(100% * (1 / 2) - 4vh);
+  flex-grow: 1;
+}
+.cardText__logo > img:nth-child(1) {
+  margin: 6vh;
+  width: calc(100% * (1 / 2) - 12vh);
+  flex-grow: 1;
+}
 .logo {
   background-color: #ffffff;
   border: 5px double black;
