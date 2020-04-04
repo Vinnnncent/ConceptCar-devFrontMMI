@@ -1,5 +1,11 @@
 .presentationOne {
-  background-image: url(./../assets/models/alpha.jpg);
+  // @include medium_screen {
+  //   background-image: url(./../assets/models/ford.jpg);
+  // }
+  // @include large_screen {
+  //   background-position: 0 -20vh;
+  // }
+  background-image: url(./../assets/models/bugatti.webp);
   background-size: cover;
   width: 100vw;
   height: 100vh;
